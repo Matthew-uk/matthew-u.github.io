@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tachyons.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/tachyons.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quadratic Equation</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light w3-animate-fading w3-animate-opacity fixed-top" id="navbar">
+        <div class="container">
+            <a href="" class="navbar-brand"><img src="../img/book.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      Calculators
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="nav-link dropdown-item" href="../PERMUTATION/index.html">Permutation</a>
+                      <a class="nav-link dropdown-item" href="quadraticEquation/index.html">Quadratic equation</a>
+                      <a class="nav-link dropdown-item" href="../square-n-root/index.html">Squares and Roots</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>   
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li> 
+                </ul>
+              </div>  
+            
+        </div>
+    </nav>
+    <article class="Tilt-inner br4 grow tc ba b--black-10 mv4 w-75 w-75-m w-75-l mw6 shadow-5 center mt-50">
+        <main class="pa4 black-80">
+            <form id="form" class="measure">
+                <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+                    <label 
+                    id="quadraticEquation
+                    class="f1 bold fw6 ph0 mh0 grow pointer">
+                    Quadratic Equation Calculator
+                    </label>>
+                    <div class="mt3">
+                        <p class="f3 grow pointer din black db">
+                            Do not insert a fraction
+                        </p>
+                        <label class="relative db fw6 lh-copy f5 grow" for="password">a</label>
+                        <input
+                         class="pa2 input-reset 
+                         ba bg-transparent hover-bg-black hover-white w-100" 
+                         id="a" 
+                         type="number"/>x2
+                    </div>
+                    <div class="mt3">
+                        <label class="relative db fw6 lh-copy f5 grow" for="password">b</label>
+                        <input class="pa2 input-reset 
+                        ba bg-transparent hover-bg-black hover-white w-100"
+                         id="b"
+                        type="number"/>x
+                    </div>
+                    <div class="mt3">
+                        <label class="relative db fw6 lh-copy f5 grow" for="password">c</label>
+                        <input class="pa2 input-reset ba bg-transparent 
+                        hover-bg-black hover-white w-100" 
+                        id="c"
+                        type="number"/>
+                    </div>
+                </fieldset>
+                <div class="">
+                    <input
+                    id="btn"
+                    class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer hover-bg-black hover-white dib"
+                    value="Equate"
+                    name="input"
+                    type="submit"
+                     />
+                </div>
+                <div class="lh-copy mt3">
+                    <p id="p" class="f5 grow link din black db pointer"></p>
+                </div>
+                <div class="mt3">
+                    <label class="relative db fw6 lh-copy f5 grow" for="password">b</label>
+                    <input class="pa2 input-reset 
+                    ba bg-transparent hover-bg-black hover-white w-100"
+                     id="per"
+                    type="number"/>
+                </div>
+                <div class="lh-copy mt3">
+                    <p id="p2" class="f5 grow link din black db pointer"></p>
+                </div>
+            </form>
+        </main>
+    </article>
+</body>
+    <script src="../js/js/jQuery.js"></script>
+    <script src="../js/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</html>
