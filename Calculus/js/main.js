@@ -5,9 +5,10 @@ const p = document.querySelector("#p");
 const solve = (a,n) => {
 	let an,answer;
 	an = a * n;
-	answer = `${a === 1 ? `x` : a === -1 ? `-x` : `${a}x`}<sup>${n}</sup> = 
-						${n - 1 === 0 ? 1 : an === 1 ? `x` : an === -1 ? `-x` : `${an}x`}${(n - 1) !== 0 ? `<sup>${n - 1}</sup>` : ``}`;
-	return answer;
+	answer = `y = ${a === 1 ? `` : a === -1 ? `x` : `${a}`}${(an && n) === 0 ? `` : 'x' }<sup>${n === 1 ? '' : n === 0 ? `` : `${n}`}</sup><br />
+                  <sup>dy</sup>/<sub>dx</sub> = 
+                  ${an === 0 ? '' : an}${(n-1 === 0) ? '0' : `x<sup>${(n-1) === 1 ? `` : n - 1}</sup>`}`
+return answer;
 }
 
 const calculus = (e) =>
