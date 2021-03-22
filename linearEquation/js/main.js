@@ -19,7 +19,6 @@ const linearEquation = (e) => {
   const a = document.querySelector("#a").value;
   const b = document.querySelector("#b").value;
   const c = document.querySelector("#c").value;
-    alert("Hey there...")
     e.preventDefault();
     const result = document.createElement("h6");
     const resultDiv = document.querySelector("#div")
