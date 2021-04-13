@@ -1,0 +1,45 @@
+#my_span
+{
+  transition: .5s;
+}
+
+#my_span:hover
+{
+  margin-left: 3px;
+}
+
+/* @keyframes move{
+  from{margin-top: 0px;}
+  to{margin-top: 10px;}
+} */
+
+.finger
+{
+  animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.mikon
+{
+  color: #2cb5e8;
+  cursor: pointer;
+}
+
+.logo
+{
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-brand{
+  animation-name: shakeY;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.navbar-brand:hover{
+  animation-name: shakeX;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}

@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(89deg, #ff5edf 0%, #04C8de 100%);
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+#input:hover { 
+    background-color: rgba( 0, 0, 0, .8 );
+    cursor: zoom-in;
+}
+
+#permutation
+{
+    animation-name: shakeY;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+#permutation:hover
+{
+    animation-name: shakeX;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+}
+
+@media(max-width:414px)
+{
+    #permutation
+    {
+        font-size:1.5em;
+    }
+}
