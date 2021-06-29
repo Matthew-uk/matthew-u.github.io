@@ -2,8 +2,6 @@ const btn = document.querySelector('#btn');
 const p = document.querySelector('#p');
 const form = document.querySelector('#form');
 
-
-
 const solve = (a,b,c) => {
   let x,answer;
   x = ((c - b)/a);
@@ -32,3 +30,7 @@ const linearEquation = (e) => {
     }
 }
 form.addEventListener("submit", linearEquation);
+let i;
+for(i = 0; i<=5; i++){
+  console.table(i,(i*5));
+}
